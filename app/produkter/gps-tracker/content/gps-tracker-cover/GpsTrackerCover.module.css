@@ -1,0 +1,10 @@
+.section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+  height: 35rem;
+  margin-top: 10rem;
+  margin-bottom: 0;
+}

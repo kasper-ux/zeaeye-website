@@ -1,0 +1,35 @@
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.content > * {
+  flex: 1;
+}
+
+.content > *:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.featureTitle {
+  display: flex;
+  padding: 0 2rem 1.5rem 2rem;
+  flex-direction: column;
+  text-align: left;
+}
+
+.featureImage {
+  display: flex;
+  height: 22rem;
+  width: 100%;
+  position: relative;
+}

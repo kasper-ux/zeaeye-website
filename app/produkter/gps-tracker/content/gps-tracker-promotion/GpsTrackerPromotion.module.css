@@ -1,0 +1,29 @@
+.section {
+}
+
+.content {
+  height: 40rem;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  flex-direction: column;
+}
+
+.flag {
+  display: inline-flex;
+  margin-right: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  vertical-align: bottom;
+  margin-bottom: 2px;
+}

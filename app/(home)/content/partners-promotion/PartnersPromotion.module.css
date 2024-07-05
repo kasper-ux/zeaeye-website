@@ -1,0 +1,27 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.content > *:not(:first-child) {
+  margin-left: 3rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}

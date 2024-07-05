@@ -1,0 +1,6 @@
+{
+  "notebook.editorOptionsCustomizations": {},
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "explicit"
+  }
+}

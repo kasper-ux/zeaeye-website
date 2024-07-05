@@ -1,0 +1,12 @@
+.page {
+  min-height: calc(100vh - 4rem - 2rem);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  max-width: 80rem;
+  flex-direction: column;
+}

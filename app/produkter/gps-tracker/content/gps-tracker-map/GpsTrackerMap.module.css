@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  padding: 4rem 5rem;
+  height: 35rem;
+  align-items: flex-end;
+  background-image: url("/assets/images/products/gps-tracker/gps-tracker-map.png");
+  background-size: cover;
+}
+
+.content i {
+  color: var(--color-secondary);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 159, 0, 0.5);
+  }
+
+  80% {
+    transform: scale(1);
+    box-shadow: 0 0 0 70px rgba(255, 159, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 159, 0, 0);
+  }
+}
+
+.dot {
+  display: flex;
+  position: absolute;
+  right: 10rem;
+  bottom: 10rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background: var(--color-secondary);
+  animation: pulse 4s infinite;
+}

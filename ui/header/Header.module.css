@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-glass);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.headerLine {
+  width: 1px;
+  height: 1.5rem;
+  background-color: var(--color-gray);
+  margin: 0 1rem;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 80rem;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.headerSectionRight {
+  display: flex;
+  align-items: center;
+}
+
+.headerSectionLeft {
+  display: flex;
+  align-items: center;
+}

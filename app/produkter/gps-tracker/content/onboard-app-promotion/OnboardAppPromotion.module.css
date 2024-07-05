@@ -1,0 +1,45 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  height: 35rem;
+}
+
+.section > * {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 4rem 5rem;
+  flex: 1;
+}
+
+.text {
+  max-width: 34rem;
+  display: flex;
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons > *:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.image {
+  object-fit: contain;
+  object-position: right;
+  display: flex;
+  flex: 1;
+  pointer-events: none;
+}
+
+.appLogo {
+  object-fit: contain;
+}
